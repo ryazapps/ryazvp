@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMITATORS on Steam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      min-height: 100vh;
+      padding-right: 2vw;
+      font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+      color: #c7d5e0;
+      background: #1a120c url("bg.png") center / cover no-repeat fixed;
+      overflow: hidden;
+    }
+
+    .steam-window {
+      width: 51.84vw;
+      font-size: 0.9vw;
+      background: linear-gradient(180deg, #1b2838 0%, #16202d 100%);
+      border: 0.06em solid #2a475e;
+      box-shadow: 0 1.125em 3em rgba(0, 0, 0, 0.55), inset 0 0.06em 0 rgba(255, 255, 255, 0.04);
+    }
+
+    .titlebar {
+      display: flex;
+      align-items: center;
+      height: 2.25em;
+      padding: 0 0.875em;
+      background: linear-gradient(180deg, #2a475e 0%, #1b2838 100%);
+      border-bottom: 0.06em solid #66c0f4;
+    }
+
+    .titlebar-name {
+      font-size: 0.8125em;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: #c7d5e0;
+      text-transform: uppercase;
+    }
+
+    .body {
+      padding: 1.375em 1.375em 1.25em;
+    }
+
+    h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1;
+      color: #ffffff;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.55em;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4em;
+      margin-bottom: 0.8em;
+    }
+
+    .tag {
+      padding: 0.2em 0.5em;
+      background: rgba(102, 192, 244, 0.12);
+      border: 0.06em solid #2a475e;
+      color: #67c1f5;
+      font-size: 0.75em;
+    }
+
+    .copy {
+      font-size: 0.95em;
+      line-height: 1.45;
+      color: #acb2b8;
+      margin-bottom: 1em;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: 6.2em 1fr;
+      row-gap: 0.35em;
+      column-gap: 0.7em;
+      font-size: 0.85em;
+      margin-bottom: 1.25em;
+    }
+
+    .details dt {
+      color: #8f98a0;
+    }
+
+    .details dd {
+      color: #67c1f5;
+    }
+
+    .wishlist {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 2.75em;
+      border: 0;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 1.15em;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+      text-decoration: none;
+      background: linear-gradient(90deg, #75b022 0%, #588a1b 100%);
+      box-shadow: inset 0 0.06em 0 rgba(255, 255, 255, 0.18);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: geometricPrecision;
+    }
+
+    .wishlist:hover {
+      background: linear-gradient(90deg, #8ed12a 0%, #6aa220 100%);
+      color: #ffffff;
+    }
+
+    .wishlist:active {
+      filter: brightness(0.94);
+    }
+  </style>
+</head>
+<body>
+  <section class="steam-window">
+    <header class="titlebar">
+      <p class="titlebar-name">Steam</p>
+    </header>
+    <div class="body">
+      <h1>IMITATORS</h1>
+      <div class="tags">
+        <span class="tag">Hidden Object</span>
+        <span class="tag">Survival Horror</span>
+        <span class="tag">Stealth</span>
+      </div>
+      <p class="copy">Co-op horror for 6 players and multiplayer for up to 20 players. Search for items on a randomly generated map and send them into the tube. But be careful: Imitators (Mimics) hide among ordinary things, ready to attack the moment the lights go out.</p>
+      <dl class="details">
+        <dt>Developer:</dt>
+        <dd>ryazvp</dd>
+        <dt>Publisher:</dt>
+        <dd>ryazvp</dd>
+      </dl>
+      <a class="wishlist" href="https://store.steampowered.com/app/4891990/IMITATORS/">Add to Wishlist</a>
+    </div>
+  </section>
+</body>
+</html>
